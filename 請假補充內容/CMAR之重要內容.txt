@@ -1,0 +1,8 @@
+CMAR (Classification Based on Multiple Class-Association Rules)
+CMAR算法利用FP-Growth算法来挖掘关联规则，并构建一种称为CR-树（Classification Rule Tree）的结构来高效存储这些规则。
+它采用多种规则剪枝策略，并根据类标签对规则进行分组。
+CMAR在性能和伸缩性方面表现优异，但其倾向于生成长规则，可能导致对数据库的覆盖效果不佳。
+此外，CMAR使用加权统计量进行分类，这可能导致统计量失真，从而降低分类的准确性。
+
+參考資料：
+https://zhuanlan.zhihu.com/p/1950135206322345188

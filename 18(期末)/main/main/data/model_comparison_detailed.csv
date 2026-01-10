@@ -1,0 +1,6 @@
+,Accuracy,Precision,Recall,F1-score
+SVM (MFCC),0.511,0.263,0.364,0.288
+RF (MFCC),0.633,0.599,0.524,0.522
+DT (Shapelet),0.522,0.412,0.433,0.403
+RF (MelSpec),0.611,0.556,0.526,0.523
+RF (Shapelet),0.544,0.44,0.454,0.419
